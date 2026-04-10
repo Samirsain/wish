@@ -69,8 +69,8 @@ export const templateData: Record<string, Category> = {
       {
         id: "1",
         name: "Classic Christmas",
-        thumbnail: "/Gemini_Generated_Image_6g1unu6g1unu6g1u.png",
-        mainImage: "/Gemini_Generated_Image_6g1unu6g1unu6g1u.png",
+        thumbnail: "https://i.pinimg.com/1200x/48/89/39/4889395fcfd8d31e9725990c00dec261.jpg",
+        mainImage: "https://i.pinimg.com/1200x/48/89/39/4889395fcfd8d31e9725990c00dec261.jpg",
       },
       {
         id: "2",

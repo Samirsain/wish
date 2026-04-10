@@ -73,12 +73,13 @@ export default function Home() {
           initial={{ opacity: 0, y: 28 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.75, delay: 0.1, ease: [0.25, 0.4, 0.25, 1] }}
-          className="text-5xl sm:text-7xl lg:text-[88px] font-bold tracking-tighter leading-[1.04] mb-6 max-w-5xl text-[var(--foreground)]"
+          className="text-5xl sm:text-7xl lg:text-[88px] font-bold tracking-tighter leading-[1.1] mb-6 max-w-5xl mx-auto break-words px-2"
         >
-          Make Wishes
+          <span className="wishing-you-shimmer">Make Wishes</span>
           <br className="hidden sm:block" />
-          <SparklesText className="text-5xl sm:text-7xl lg:text-[88px] font-bold tracking-tighter leading-[1.04] gradient-text inline">
-            {" "}More Magical.
+          <span className="sm:hidden"> </span>
+          <SparklesText className="text-5xl sm:text-7xl lg:text-[88px] font-bold tracking-tighter leading-[1.1] inline">
+            <span className="wishing-you-shimmer">More Magical.</span>
           </SparklesText>
         </motion.h1>
 
