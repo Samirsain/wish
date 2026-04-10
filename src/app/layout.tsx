@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Outfit, Geist } from "next/font/google";
 import Link from "next/link";
 import { Heart } from "lucide-react";
+import Navbar from "@/components/Navbar";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 
@@ -29,9 +30,9 @@ export const metadata: Metadata = {
 
 const footerLinks = {
   Product: [
-    { label: "Occasions", href: "#categories" },
+    { label: "Occasions", href: "/#categories" },
     { label: "Trending Cards", href: "#" },
-    { label: "How it Works", href: "#" },
+    { label: "How it Works", href: "/#how-it-works" },
     { label: "Pricing", href: "#" },
   ],
   Resources: [
@@ -60,6 +61,7 @@ export default function RootLayout({
         />
       </head>
       <body className="min-h-full flex flex-col font-sans bg-[var(--background)] text-[var(--foreground)]">
+        <Navbar />
         {children}
 
         {/* ── Footer ── */}

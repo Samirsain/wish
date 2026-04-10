@@ -192,6 +192,29 @@ body {
 
 .float-anim { animation: float 4s ease-in-out infinite; }
 
+/* ─── Wishing You Shimmer ──────────────────────── */
+.wishing-you-shimmer {
+  background: linear-gradient(
+    90deg,
+    #ff2d55 0%,
+    #f4a261 20%,
+    #2a9d8f 40%,
+    #8a2be2 60%,
+    #e63946 80%,
+    #ff2d55 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer-slide 3s linear infinite;
+}
+
+@keyframes shimmer-slide {
+  0% { background-position: 0% center; }
+  100% { background-position: 200% center; }
+}
+
 /* ─── Subtle Glow Button ───────────────────────── */
 .btn-primary {
   background: var(--primary);

@@ -11,6 +11,7 @@ import {
   ArrowDown,
 } from "lucide-react";
 import { motion } from "framer-motion";
+import { SparklesText } from "@/components/ui/sparkles-text";
 import { templateData } from "./templates";
 
 
@@ -50,54 +51,7 @@ export default function Home() {
         <div className="glow-orb w-[350px] h-[350px] bg-fuchsia-300 opacity-[0.12] bottom-[15%] left-[35%]" />
       </div>
 
-      {/* ── Navbar ── */}
-      <nav className="fixed top-0 w-full z-50 glass border-b border-black/[0.04] px-6 sm:px-16 py-3.5 flex justify-between items-center">
-        <motion.div
-          initial={{ opacity: 0, x: -20 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5 }}
-          className="font-bold text-xl tracking-tight text-[var(--foreground)] flex items-center gap-2.5"
-        >
-          <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-[var(--primary)] to-[var(--primary-light)] flex items-center justify-center shadow-md">
-            <Heart className="w-3.5 h-3.5 text-white" />
-          </div>
-          WishCraft
-        </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0, x: 20 }}
-          animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.5 }}
-          className="hidden sm:flex items-center gap-8 text-sm font-medium"
-        >
-          <Link href="#categories" className="text-[var(--foreground)]/60 hover:text-[var(--foreground)] transition-colors duration-200">
-            Categories
-          </Link>
-          <Link href="#how-it-works" className="text-[var(--foreground)]/60 hover:text-[var(--foreground)] transition-colors duration-200">
-            How it Works
-          </Link>
-          <Link
-            href="#categories"
-            className="glass border border-black/5 hover:border-[var(--primary)]/20 text-[var(--foreground)]/80 hover:text-[var(--primary)] px-5 py-2 rounded-full transition-all duration-200 text-xs"
-          >
-            Browse All →
-          </Link>
-        </motion.div>
-
-        {/* Mobile hamburger placeholder */}
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          className="sm:hidden"
-        >
-          <Link
-            href="#categories"
-            className="glass border border-black/5 text-[var(--foreground)]/80 px-4 py-1.5 rounded-full text-xs font-medium"
-          >
-            Browse
-          </Link>
-        </motion.div>
-      </nav>
 
       {/* ── Hero Section ── */}
       <main className="relative z-10 pt-36 px-6 sm:px-12 max-w-7xl mx-auto flex flex-col items-center text-center">
@@ -123,7 +77,9 @@ export default function Home() {
         >
           Make Wishes
           <br className="hidden sm:block" />
-          <span className="gradient-text"> More Magical.</span>
+          <SparklesText className="text-5xl sm:text-7xl lg:text-[88px] font-bold tracking-tighter leading-[1.04] gradient-text inline">
+            {" "}More Magical.
+          </SparklesText>
         </motion.h1>
 
         {/* Subheadline */}
@@ -204,7 +160,7 @@ export default function Home() {
         </motion.a>
 
         {/* ═══════════════════════════════════════════
-            How it Works Section
+            How it Works Section — Minimal & Playful
         ════════════════════════════════════════════ */}
         <motion.section
           id="how-it-works"
@@ -215,74 +171,100 @@ export default function Home() {
           className="w-full scroll-mt-20 mb-32"
         >
           {/* Heading */}
-          <div className="text-center mb-16">
-            <p className="text-xs text-[var(--primary)] uppercase tracking-[0.18em] mb-3 font-semibold">
-              Simple Process
-            </p>
+          <div className="text-center mb-14">
+            <motion.p
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              className="text-3xl mb-3"
+            >
+              ✨
+            </motion.p>
             <h2 className="text-3xl sm:text-4xl font-bold tracking-tight text-[var(--foreground)]">
-              How it{" "}
-              <span className="gradient-text">Works</span>
+              Three simple steps
             </h2>
-            <p className="text-[var(--foreground)]/60 text-sm mt-4 max-w-sm mx-auto leading-relaxed">
-              Three steps — that&apos;s all it takes to create and share a
-              magical greeting.
+            <p className="text-[var(--foreground)]/50 text-sm mt-3 max-w-xs mx-auto leading-relaxed">
+              Create &amp; share magical greetings in seconds. No signup needed.
             </p>
           </div>
 
-          {/* Steps */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 relative">
-            {/* Connector line (desktop only) */}
-            <div className="hidden sm:block absolute top-[44px] left-[calc(16.66%+16px)] right-[calc(16.66%+16px)] h-px bg-gradient-to-r from-transparent via-[var(--border)] to-transparent pointer-events-none" />
+          {/* Steps — Horizontal playful layout */}
+          <div className="flex flex-col sm:flex-row items-center sm:items-start justify-center gap-6 sm:gap-0 relative">
 
             {[
               {
-                step: "01",
-                title: "Choose a Template",
-                desc: "Browse our curated library of festival and occasion cards. Pick the one that matches your vibe.",
+                num: "1",
                 emoji: "🎨",
+                title: "Pick a card",
+                desc: "Browse festivals & occasions",
+                color: "from-pink-500 to-rose-400",
+                bg: "bg-pink-50",
               },
               {
-                step: "02",
-                title: "Add a Name",
-                desc: "Enter the recipient\u2019s name. Watch it animate live on the card with a magical glitter effect.",
-                emoji: "✏️",
+                num: "2",
+                emoji: "✍️",
+                title: "Add a name",
+                desc: "Watch it sparkle live",
+                color: "from-violet-500 to-purple-400",
+                bg: "bg-violet-50",
               },
               {
-                step: "03",
-                title: "Share Instantly",
-                desc: "Send via WhatsApp, Facebook, or copy the link for Instagram. No login, no fees — ever.",
+                num: "3",
                 emoji: "🚀",
+                title: "Share it!",
+                desc: "WhatsApp, Insta, or link",
+                color: "from-amber-500 to-orange-400",
+                bg: "bg-amber-50",
               },
             ].map((item, i) => (
-              <motion.div
-                key={i}
-                initial={{ opacity: 0, y: 24 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.5, delay: i * 0.12 }}
-                whileHover={{ y: -3, scale: 1.01 }}
-                className="glass-card border border-[var(--border)] hover:border-[var(--primary)]/30 rounded-xl p-5 flex flex-col gap-3 relative overflow-hidden transition-all duration-300 cursor-default shadow-sm"
-              >
-                {/* Subtle orb per card */}
-                <div className="absolute -bottom-8 -right-8 w-20 h-20 bg-[var(--primary)] rounded-full blur-[40px] opacity-[0.04] pointer-events-none" />
+              <div key={i} className="flex flex-col sm:flex-row items-center">
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ duration: 0.5, delay: i * 0.15 }}
+                  whileHover={{ y: -8, scale: 1.04 }}
+                  className="flex flex-col items-center text-center cursor-default group w-[180px]"
+                >
+                  {/* Emoji Circle */}
+                  <div className={`w-20 h-20 rounded-3xl ${item.bg} flex items-center justify-center mb-4 relative transition-all duration-300 group-hover:shadow-lg group-hover:shadow-[var(--primary)]/10`}>
+                    <motion.span
+                      className="text-4xl"
+                      whileHover={{ rotate: [0, -10, 10, -10, 0], scale: 1.2 }}
+                      transition={{ duration: 0.5 }}
+                    >
+                      {item.emoji}
+                    </motion.span>
+                    {/* Step number badge */}
+                    <span className={`absolute -top-1 -right-1 w-6 h-6 rounded-full bg-gradient-to-br ${item.color} text-white text-[10px] font-bold flex items-center justify-center shadow-md`}>
+                      {item.num}
+                    </span>
+                  </div>
 
-                {/* Step number + emoji */}
-                <div className="flex items-center justify-between mb-1">
-                  <span className="text-[9px] font-bold uppercase tracking-[0.2em] text-[var(--primary)]/80">
-                    Step {item.step}
-                  </span>
-                  <span className="text-xl opacity-80">{item.emoji}</span>
-                </div>
-
-                <div>
-                  <h3 className="text-sm font-bold text-[var(--foreground)] mb-1.5 tracking-tight">
+                  {/* Text */}
+                  <h3 className="text-base font-bold text-[var(--foreground)] mb-1 tracking-tight">
                     {item.title}
                   </h3>
-                  <p className="text-[var(--foreground)]/50 text-xs leading-relaxed">
+                  <p className="text-[var(--foreground)]/45 text-xs leading-relaxed">
                     {item.desc}
                   </p>
-                </div>
-              </motion.div>
+                </motion.div>
+
+                {/* Connector dots (between items, desktop only) */}
+                {i < 2 && (
+                  <div className="hidden sm:flex items-center gap-1.5 mx-6 mt-8">
+                    <span className="w-1.5 h-1.5 rounded-full bg-[var(--primary)]/20" />
+                    <span className="w-1.5 h-1.5 rounded-full bg-[var(--primary)]/30" />
+                    <span className="w-1.5 h-1.5 rounded-full bg-[var(--primary)]/40" />
+                    <span className="w-2 h-2 rounded-full bg-[var(--primary)]/50" />
+                  </div>
+                )}
+
+                {/* Mobile arrow */}
+                {i < 2 && (
+                  <div className="sm:hidden text-[var(--primary)]/30 text-lg my-1">↓</div>
+                )}
+              </div>
             ))}
           </div>
         </motion.section>

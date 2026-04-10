@@ -21,20 +21,20 @@ export const templateData: Record<string, Category> = {
       {
         id: "1",
         name: "Colorful Splash",
-        thumbnail: "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDM3bjJqNHQxc3o0cnE5bDAxZHNmMHgwZzN1bnJ4NnJkcmFhMHI3MiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qTRQqGHTnrFNpdbA58/giphy.webp",
-        mainImage: "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExZDM3bjJqNHQxc3o0cnE5bDAxZHNmMHgwZzN1bnJ4NnJkcmFhMHI3MiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/qTRQqGHTnrFNpdbA58/giphy.webp",
+        thumbnail: "https://media1.tenor.com/m/8lpLmQzloW8AAAAC/happy-holi.gif",
+        mainImage: "https://media1.tenor.com/m/8lpLmQzloW8AAAAC/happy-holi.gif",
       },
       {
         id: "2",
         name: "Festive Colors",
-        thumbnail: "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHZvdzZuYTZzYnJhZHgxMzdlYWRvYmhyNmk4bjEzejBuYWxvNXllOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OOhzkYfIpQTZSCd0Lb/giphy.gif",
-        mainImage: "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExdHZvdzZuYTZzYnJhZHgxMzdlYWRvYmhyNmk4bjEzejBuYWxvNXllOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/OOhzkYfIpQTZSCd0Lb/giphy.gif",
+        thumbnail: "https://i.pinimg.com/736x/e6/2f/c8/e62fc8407a9e6f090275f0ebb1c5b5e6.jpg",
+        mainImage: "https://i.pinimg.com/736x/e6/2f/c8/e62fc8407a9e6f090275f0ebb1c5b5e6.jpg",
       },
       {
         id: "3",
         name: "Magic Holi",
-        thumbnail: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHdzZzJ0OGhqaXRzOG11dzJoN2dudjg5ZXpqbmhvNnlwYXMzb2NscCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0diRmZwwQU45nfpXwv/giphy.gif",
-        mainImage: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHdzZzJ0OGhqaXRzOG11dzJoN2dudjg5ZXpqbmhvNnlwYXMzb2NscCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0diRmZwwQU45nfpXwv/giphy.gif",
+        thumbnail: "https://i.pinimg.com/1200x/b6/10/60/b61060f7c6477bd8f4bb81f2e2b236f1.jpg",
+        mainImage: "https://i.pinimg.com/1200x/b6/10/60/b61060f7c6477bd8f4bb81f2e2b236f1.jpg",
       }
     ]
   },
@@ -45,20 +45,20 @@ export const templateData: Record<string, Category> = {
       {
         id: "1",
         name: "Glowing Diya",
-        thumbnail: "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmFwZXZsb3phNmpvODl1eW4xa3FncGVvOTEyMjZ5aDh4YzM2eGNmbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4mfNIJciAvY6zpTxOk/giphy.gif",
-        mainImage: "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmFwZXZsb3phNmpvODl1eW4xa3FncGVvOTEyMjZ5aDh4YzM2eGNmbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/4mfNIJciAvY6zpTxOk/giphy.gif",
+        thumbnail: "https://media.tenor.com/k6TOp4g6Z7sAAAAi/diwali-sparkles-stars.gif",
+        mainImage: "https://media.tenor.com/k6TOp4g6Z7sAAAAi/diwali-sparkles-stars.gif",
       },
       {
         id: "2",
         name: "Grand Fireworks",
-        thumbnail: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXBpeG90MDVmeGI4NDVyaHN6angyOWNiYzdrMmZ2d2F6M3pudWVreiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lWEc3DL3zAMQ8FsxvY/giphy.gif",
-        mainImage: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXBpeG90MDVmeGI4NDVyaHN6angyOWNiYzdrMmZ2d2F6M3pudWVreiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/lWEc3DL3zAMQ8FsxvY/giphy.gif",
+        thumbnail: "https://media.tenor.com/reimBXdVHdcAAAAi/happy-diwali-diwali.gif",
+        mainImage: "https://media.tenor.com/reimBXdVHdcAAAAi/happy-diwali-diwali.gif",
       },
       {
         id: "3",
         name: "Festival of Lights",
-        thumbnail: "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW16dTZ3ZXdpN3R5ZmQ3YTV2MWg4eTIyM2V4MjN6YXdhMDczanFtayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1o50tZCj42LzVha7Uc/giphy.gif",
-        mainImage: "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZW16dTZ3ZXdpN3R5ZmQ3YTV2MWg4eTIyM2V4MjN6YXdhMDczanFtayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/1o50tZCj42LzVha7Uc/giphy.gif",
+        thumbnail: "https://media.tenor.com/3wgpDdu0rgIAAAAi/happy-diwali-chhota-bheem.gif",
+        mainImage: "https://media.tenor.com/3wgpDdu0rgIAAAAi/happy-diwali-chhota-bheem.gif",
       }
     ]
   },
@@ -69,20 +69,20 @@ export const templateData: Record<string, Category> = {
       {
         id: "1",
         name: "Classic Christmas",
-        thumbnail: "https://bestanimations.com/media/christmas/1321601163wishing-you-a-very-merry-christmas-and-happy-new-year-animated-gif-image.gif",
-        mainImage: "https://bestanimations.com/media/christmas/1321601163wishing-you-a-very-merry-christmas-and-happy-new-year-animated-gif-image.gif",
+        thumbnail: "/Gemini_Generated_Image_6g1unu6g1unu6g1u.png",
+        mainImage: "/Gemini_Generated_Image_6g1unu6g1unu6g1u.png",
       },
       {
         id: "2",
         name: "Magic Tree",
-        thumbnail: "https://bestanimations.com/media/christmas/1915682704merry-christmas-gif-christmas-tree-snow-animation-greetings.gif.pagespeed.ce.azvtZGWvQ4.gif",
-        mainImage: "https://bestanimations.com/media/christmas/1915682704merry-christmas-gif-christmas-tree-snow-animation-greetings.gif.pagespeed.ce.azvtZGWvQ4.gif",
+        thumbnail: "https://i.pinimg.com/1200x/b4/32/4f/b4324f811c616a003e65a8b0b21f2b31.jpg",
+        mainImage: "https://i.pinimg.com/1200x/b4/32/4f/b4324f811c616a003e65a8b0b21f2b31.jpg",
       },
       {
         id: "3",
         name: "Golden Peace",
-        thumbnail: "https://bestanimations.com/media/christmas/485660006gold-merry-christmas-gif-peace-to-world-animated.gif.pagespeed.ce.VtiQGWi59x.gif",
-        mainImage: "https://bestanimations.com/media/christmas/485660006gold-merry-christmas-gif-peace-to-world-animated.gif.pagespeed.ce.VtiQGWi59x.gif",
+        thumbnail: "https://i.pinimg.com/736x/25/d1/04/25d104249d5f923efb146e45c9c3211c.jpg",
+        mainImage: "https://i.pinimg.com/736x/25/d1/04/25d104249d5f923efb146e45c9c3211c.jpg",
       }
     ]
   },
@@ -93,20 +93,20 @@ export const templateData: Record<string, Category> = {
       {
         id: "1",
         name: "Fireworks Celebration",
-        thumbnail: "https://bestanimations.com/uploads/gifs/1215101805colorful-fan-firework-gif-happy-new-year-gif.gif.pagespeed.ce.959CRFxArj.gif",
-        mainImage: "https://bestanimations.com/uploads/gifs/1215101805colorful-fan-firework-gif-happy-new-year-gif.gif.pagespeed.ce.959CRFxArj.gif",
+        thumbnail: "https://i.pinimg.com/736x/7a/01/02/7a0102873f497776c46e01453cd0c758.jpg",
+        mainImage: "https://i.pinimg.com/736x/7a/01/02/7a0102873f497776c46e01453cd0c758.jpg",
       },
       {
         id: "2",
         name: "Champagne Cheers",
-        thumbnail: "https://bestanimations.com/uploads/gifs/626891354cheer-to-new-year-gif-animation-champagne-glasses.gif.pagespeed.ce.aC7C5-iWdL.gif",
-        mainImage: "https://bestanimations.com/uploads/gifs/626891354cheer-to-new-year-gif-animation-champagne-glasses.gif.pagespeed.ce.aC7C5-iWdL.gif",
+        thumbnail: "https://i.pinimg.com/736x/36/02/b4/3602b40e08fe80da744c6feed1ff4c93.jpg",
+        mainImage: "https://i.pinimg.com/736x/36/02/b4/3602b40e08fe80da744c6feed1ff4c93.jpg",
       },
       {
         id: "3",
         name: "Neon Sparks",
-        thumbnail: "https://bestanimations.com/media/newyear/328918394happy-new-year-gif-neon-sparkling-lights-animated.gif",
-        mainImage: "https://bestanimations.com/media/newyear/328918394happy-new-year-gif-neon-sparkling-lights-animated.gif",
+        thumbnail: "https://i.pinimg.com/1200x/ba/42/15/ba4215f6eb19ec70c992f011857aba3d.jpg",
+        mainImage: "https://i.pinimg.com/1200x/ba/42/15/ba4215f6eb19ec70c992f011857aba3d.jpg",
       }
     ]
   },
@@ -117,20 +117,23 @@ export const templateData: Record<string, Category> = {
       {
         id: "1",
         name: "Pink Floral",
-        thumbnail: "https://bestanimations.com/media/birthday/1826060412happy-birthday-pink-flower-gif.gif",
-        mainImage: "https://bestanimations.com/media/birthday/1826060412happy-birthday-pink-flower-gif.gif",
+        thumbnail: "https://i.pinimg.com/736x/c3/3d/12/c33d123c587793592d93efd5aed258d7.jpg",
+        mainImage: "https://i.pinimg.com/736x/c3/3d/12/c33d123c587793592d93efd5aed258d7.jpg",
+        underImage: "https://i.pinimg.com/1200x/98/50/51/9850516f37bb476d93673d503c728c95.jpg",
       },
       {
         id: "2",
         name: "Ocean Surfer",
-        thumbnail: "https://bestanimations.com/media/birthday/1726946915happy-birthday-gif-ocean-waves-surfer-birthday.gif.pagespeed.ce.6WvF7HZ3YS.gif",
-        mainImage: "https://bestanimations.com/media/birthday/1726946915happy-birthday-gif-ocean-waves-surfer-birthday.gif.pagespeed.ce.6WvF7HZ3YS.gif",
+        thumbnail: "https://i.pinimg.com/1200x/1b/53/aa/1b53aa3afa269b5548697e2ba3c4d067.jpg",
+        mainImage: "https://i.pinimg.com/1200x/1b/53/aa/1b53aa3afa269b5548697e2ba3c4d067.jpg",
+        underImage: "https://i.pinimg.com/1200x/98/50/51/9850516f37bb476d93673d503c728c95.jpg",
       },
       {
         id: "3",
         name: "Birthday Fireworks",
-        thumbnail: "https://bestanimations.com/media/birthday/1523761387wishing-you-happy-birthday-gif-fireworks-animated.gif",
-        mainImage: "https://bestanimations.com/media/birthday/1523761387wishing-you-happy-birthday-gif-fireworks-animated.gif",
+        thumbnail: "https://i.pinimg.com/736x/8a/34/5c/8a345cf3b94687664bf448d9dfb7e2db.jpg",
+        mainImage: "https://i.pinimg.com/736x/8a/34/5c/8a345cf3b94687664bf448d9dfb7e2db.jpg",
+        underImage: "https://i.pinimg.com/1200x/98/50/51/9850516f37bb476d93673d503c728c95.jpg",
       }
     ]
   }
